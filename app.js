@@ -22,6 +22,7 @@ const db_uri = "mongodb+srv://db_admin:admin@cluster0.t9nub.mongodb.net/mc-param
 
 
 // WEB SOCKET
+let asdf;
 let connections = [];
 
 function broadcast_parameters_created(message){
